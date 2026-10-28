@@ -10,6 +10,9 @@
 .display-flex {
   display: flex;
 }
+body {
+  margin: 0;
+}
 .btn-primary {
   background-color: #ff900e;
   color: white;
@@ -23,9 +26,9 @@ main {
   max-width: 1440px;
   margin: 0 auto;
 }
-main > section {
+/* main > section {
   margin-top: 100px;
-}
+} */
 .section-tittle {
   font-size: 2.8rem;
   font-weight: 700;
@@ -89,7 +92,7 @@ main > section {
 }
 .banner-img {
   width: 868px;
-  margin-left: 190px;
+  margin: auto 190px;
   margin-bottom: 45px;
 }
 /* Team and  feature related class  */
@@ -117,4 +120,110 @@ main > section {
 #quick-list {
   font-weight: 500;
   color: #717171;
+}
+/* Some facts */
+.feature-container {
+  margin-left: 60px;
+}
+.some-description {
+  width: 540px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 70px;
+}
+.fact-card {
+  border: 1px solid #ff900e;
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* some facts related styles  */
+#feature-section-tittle {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  width: 460px;
+}
+.features {
+  margin-top: 40px;
+  gap: 10px;
+}
+.feature-card {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  width: 500px;
+}
+.feature-card .feature-tittle {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#experience-badge {
+  padding: 45px 42px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-left: 130px;
+  margin-top: -45px;
+}
+#experience-year {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.feature-img {
+  width: 600px;
+  margin-top: 70px;
+  margin-left: 150px;
+}
+.feature-box {
+  width: 430px;
+  margin-left: 50px;
+}
+/* Sponsor related styles */
+.sponsor-info {
+  max-width: 540px;
+  margin: 50px auto;
+  text-align: center;
+}
+.sponsor-companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 5px;
+}
+.sponsor-companies img {
+  filter: grayscale(100%);
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-left:50px ;
+    margin-right: 50px;
+}
+.footer-description{
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
 }
